@@ -1,0 +1,7 @@
+Send("C:\Users\vms16\OneDrive\Documents\Sumanthresume.docx")
+Sleep(500)
+Send("{TAB}")
+Sleep(500)
+Send("{TAB}")
+Sleep(500)
+Send("{ENTER}")

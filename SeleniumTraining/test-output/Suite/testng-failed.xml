@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="tests" name="Test2(failed)">
+    <classes>
+      <class name="laptops.HP">
+        <methods>
+          <include name="startHP"/>
+        </methods>
+      </class> <!-- laptops.HP -->
+      <class name="laptops.Lenovo">
+        <methods>
+          <include name="startLenovo"/>
+        </methods>
+      </class> <!-- laptops.Lenovo -->
+      <class name="laptops.Acer">
+        <methods>
+          <include name="startAcer"/>
+        </methods>
+      </class> <!-- laptops.Acer -->
+      <class name="laptops.MI">
+        <methods>
+          <include name="startMI"/>
+        </methods>
+      </class> <!-- laptops.MI -->
+      <class name="laptops.Dell">
+        <methods>
+          <include name="startDell"/>
+        </methods>
+      </class> <!-- laptops.Dell -->
+    </classes>
+  </test> <!-- Test2(failed) -->
+  <test thread-count="5" parallel="tests" name="Test1(failed)">
+    <classes>
+      <class name="pen.Classmate">
+        <methods>
+          <include name="write"/>
+        </methods>
+      </class> <!-- pen.Classmate -->
+      <class name="pen.Renolds">
+        <methods>
+          <include name="write"/>
+        </methods>
+      </class> <!-- pen.Renolds -->
+      <class name="pen.Cello">
+        <methods>
+          <include name="write"/>
+        </methods>
+      </class> <!-- pen.Cello -->
+      <class name="pen.Waterman">
+        <methods>
+          <include name="write"/>
+        </methods>
+      </class> <!-- pen.Waterman -->
+      <class name="pen.Parker">
+        <methods>
+          <include name="write"/>
+        </methods>
+      </class> <!-- pen.Parker -->
+    </classes>
+  </test> <!-- Test1(failed) -->
+</suite> <!-- Failed suite [Suite] -->
