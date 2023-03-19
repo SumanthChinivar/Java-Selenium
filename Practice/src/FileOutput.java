@@ -1,8 +1,7 @@
 //s su sum u um m
 public class FileOutput {
 public static void main(String[] args) {
-	System.out.println("Enter the path");
-	String s="sum";
+		String s="sum";
 	String op="";
 	for(int i=0;i<s.length()*2;i++)
 	{
